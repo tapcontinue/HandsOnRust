@@ -947,6 +947,9 @@ dependencies = [
 [[package]]
 name = "hello_yourname"
 version = "0.1.0"
+dependencies = [
+ "random",
+]
 
 [[package]]
 name = "hello_yourname_function"
@@ -1656,6 +1659,12 @@ checksum = "d25bf25ec5ae4a3f1b92f929810509a2f53d7dca2f50b794ff57e3face536c8f"
 dependencies = [
  "rand_core",
 ]
+
+[[package]]
+name = "random"
+version = "0.13.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "474c42c904f04dfe2a595a02f71e1a0e5e92ffb5761cc9a4c02140b93b8dd504"
 
 [[package]]
 name = "raw-window-handle"
